@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+    background-color: rgb(7, 7, 54) ;
+    
+}
+#navbar{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 16vh;
+    background-color: rgba(0, 0, 0, 0.382);
+    font-size: 32px;
+}
+#navbar h1{
+    font-size: 70px;
+    
+}
+#nav_links{
+    display: flex;
+    justify-content: space-between;
+    width: 67vh;
+    
+}
+#nav_links li{
+    width: 29vh;
+    list-style: none;
+    
+}
+#nav_links li a{
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: solid 2px transparent;
+    font-size: 20px;
+}
+#nav_links li a:hover{
+    border-bottom: solid 0.7vh transparent;
+    transition: border-bottom ease-in 400ms;
+}
+#home:hover{
+    
+}
+
+#description{
+    height: 70vh;
+    justify-content: space-between;
+    display: flex;
+    
+    width: 100%;
+    padding-left: 2vh;
+    padding-right: 1vh;
+    
+}
+#para{
+    align-items: center;
+    width: 50%;
+    padding-top: 2vh;
+}
+#para p{
+    font-size: 20px;
+    font-family: monospace;
+}
+#para h1{
+    font-style: italic;
+    font-size: 60px;
+    color: rgb(103, 153, 168);
+
+}
+#image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#image img{
+    
+    
+    height: 60%;
+    width: 60%;
+    
+}
+
+#usfl_links{
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.382);
+    height: 14vh;
+}
+#usfl_links li{
+
+    list-style: none;
+    
+
+    width: 40vh;
+}
+#usfl_links li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    width: 40vh;
+    color: aliceblue;
+    border: none;
+}
+#usfl_links li a:hover{
+
+    text-decoration: none;
+    list-style: none;
+    width: 40vh;
+    color: aliceblue;
+    border-bottom: solid 0.7vh rgb(30, 136, 174);
+    transition: border-bottom ease-in 500ms;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>KodeinKGP</title>
+    <script src="https://kit.fontawesome.com/fd8c626191.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <h1>
+                KodeInKGP
+            </h1>
+        </div>
+        <ul id="nav_links">
+
+            <li class="link" id="home"><a href="index.html"><i class="fa-solid fa-house-chimney" id="homeimage"></i> Home</a></li>
+            <li class="link" id="teampage"><a href="team_page-1.html"><i class="fa-solid fa-user" id="teamimage"></i> Team page</a></li>
+            <li class="link" id="article"><a href="404.html"><i class="fa-solid fa-book" id="articleimage"></i> Articles page</a></li>
+        </ul>
+    </nav>
+    <div id="description">
+        
+            <div id="para">
+                <h1 id="headpara">Welcome to KodeInKGP</h1>
+                <p>
+                    
+                    A student-run society that aims to spread awareness and educate students about the potential of Web 3.0 and future technologies. We host workshops and hackathons to give students hands-on experience with Blockchain Development and Artificial Intelligence. Additionally, we use our skills in web development and blockchain to work on real-world problems faced by the student community at IIT Kharagpur and beyond. By joining KodeinKGP, students can gain valuable technical skills and contribute to solving important problems while learning about one of the most exciting and rapidly-evolving technologies of our time.
+
+                </p>
+            </div>
+        
+        <div id="image">
+            <img src="kodein-kgp.png">
+        </div>
+    </div>
+    <footer>
+        <ul id="usfl_links">
+            <li class="usfl_links"><a href="https://www.instagram.com/kodeinkgp_iitkgp/?igsh=cmhyMXM3YTA5YzZm"><i class="fa-brands fa-instagram" id="insta"></i> Instagram</a></li>
+            <li class="usfl_links"><a href="https://www.facebook.com/kodeinkgp?mibextid=ZbWKwL"><i id="facebook" class="fa-brands fa-facebook"></i> Facebook</a></li>
+            <li class="usfl_links"><a href="https://www.linkedin.com/company/kodeinkgp/"><i id="linkedin" class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+            <li class="usfl_links"><a href="https://medium.com/@kodeinkgp"><i id="medium" class="fa-brands fa-medium"></i> Medium</a></li>
+            <li class="usfl_links"><a href="https://chat.whatsapp.com/IFt69sSqZsu7FlRWl3EIbk"><i id="whatsapp" class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+        </ul>
+
+    </footer>
+</body>
+</html>
+
+<script>
+    var home=document.getElementById('home');
+    
+
+    
+    home.onmouseover=()=>{
+    document.getElementById('homeimage').style.rotate='360deg'
+    document.getElementById('homeimage').style.transitionDuration='500ms'
+    }
+    home.onmouseout=()=>{
+        document.getElementById('homeimage').style.rotate='0deg'
+    document.getElementById('homeimage').style.transitionDuration='500ms'
+
+    }
+    
+
+
+    
+
+
+var teampage=document.getElementById('teampage');
+
+    teampage.onmouseover=()=>{
+    document.getElementById('teamimage').style.rotate='360deg'
+    document.getElementById('teamimage').style.transitionDuration='500ms'
+    }
+    teampage.onmouseout=()=>{
+        document.getElementById('teamimage').style.rotate='0deg'
+    document.getElementById('teamimage').style.transitionDuration='500ms'
+
+    }
+    var article=document.getElementById('article');
+    article.onmouseover=()=>{
+    document.getElementById('articleimage').className='fa-solid fa-book-open'
+    
+    }
+    article.onmouseout=()=>{
+        document.getElementById('articleimage').className='fa-solid fa-book'
+    
+
+    }
+
+    var parahead=document.getElementById('headpara');
+    parahead.onmouseover=()=>{
+        parahead.style.color='aliceblue';
+        parahead.style.backgroundColor='black';
+        parahead.style.transitionDuration='500ms';
+
+    }
+    parahead.onmouseout=()=>{
+        parahead.style.color='rgb(103, 153, 168)';
+        parahead.style.backgroundColor='transparent';
+        parahead.style.transitionDuration='500ms';
+        
+    }
+
+
+
+</script>

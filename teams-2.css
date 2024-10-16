@@ -1,0 +1,221 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+    background-color: rgb(7, 7, 54) ;
+}
+#navbar{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    background-color: rgb(7, 7, 54);
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.136);
+}
+#nav_links{
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+}
+#nav_links li{
+    width: 18vh;
+    list-style: none;
+}
+#nav_links li a{
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: solid 2px transparent;
+    font-size: medium;
+}
+#nav_links li a:hover{
+    border-bottom: solid 0.7vh transparent;
+    transition: border-bottom ease-in 400ms;
+}
+.teams{
+    position: relative;
+    top: 15vh;
+}
+.heads{
+    display: grid;
+    place-items: center;
+    height: 200vh;
+    gap: 5vh;
+}
+.heads ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5vh;
+}
+.heads ul li{
+    height: 45vh;
+    width: 35vh;
+    background: rgb(8, 8, 43);
+    display: flex;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.heads ul li .name{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+.heads ul li img{
+    border-radius: 2%;
+    opacity: 50%;
+    
+    height: 35vh;
+    width: 25vh;
+}
+.heads ul li .name span{
+    display: none;
+    position: relative;
+    top: 20vh;
+    width: 100%;
+}
+.heads ul li .name span a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+.founders{
+    display: grid;
+    place-items: center;
+    height: 75vh;
+    gap: 5vh;
+}
+.founders ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5vh;
+}
+.founders ul li{
+    height: 45vh;
+    width: 35vh;
+    border-radius: 2%;
+    background: rgb(8, 8, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founders ul li .name{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+.founders ul li img{
+    border-radius: 2%;
+    opacity: 50%;
+    box-shadow: ;
+    height: 35vh;
+    width: 25vh;
+}
+.founders ul li .name span{
+    display: none;
+    position: relative;
+    top: 20vh;
+    width: 100%;
+}
+.founders ul li .name span a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+.advisors{
+    display: grid;
+    place-items: center;
+    gap: 5vh;
+}
+.advisors ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5vh;
+}
+.advisors ul li{
+    height: 45vh;
+    width: 35vh;
+    border-radius: 2%;
+    background: rgb(8, 8, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advisors ul li .name{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+.advisors ul li img{
+    border-radius: 2%;
+    opacity: 50%;
+    box-shadow: ;
+    height: 35vh;
+    width: 25vh;
+}
+.advisors ul li .name span{
+    display: none;
+    position: relative;
+    top: 20vh;
+    width: 100%;
+}
+.advisors ul li .name span a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+
+
+#usfl_links{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.382);
+    height: 10vh;
+}
+#usfl_links li{
+
+    list-style: none;
+    
+
+    width: 40vh;
+}
+#usfl_links li a{
+
+    text-decoration: none;
+    list-style: none;
+    width: 40vh;
+    color: aliceblue;
+    border: none;
+}
+#usfl_links li a:hover{
+
+    text-decoration: none;
+    list-style: none;
+    width: 40vh;
+    color: aliceblue;
+    border-bottom: solid 0.7vh rgb(30, 136, 174);
+    transition: border-bottom ease-in 500ms;
+}
